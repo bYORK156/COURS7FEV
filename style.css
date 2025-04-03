@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page_principale{
+    margin: 10px;
+
+    background-color: rgb(225, 226, 151);
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.main{
+    border: solid;
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 20px;
+    
+}
+
+.text{
+
+
+    width: 300px;
+    height: 250px;
+    background-color: rgb(33, 35, 36);
+    border-radius: 20px;
+    
+}
+.text h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.clic{
+    margin-top: 20px;
+
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    background-color: aliceblue;
+    cursor: pointer;
+    
+}
+
+.clic p{
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larg;
+    font-weight: bold;
+}
